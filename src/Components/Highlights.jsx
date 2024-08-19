@@ -47,7 +47,7 @@ function Highlights() {
     <div>
     
       <h2 className="title text-4xl font-extrabold mb-5 ">Today s Highlights</h2>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {highlights.map((e) => (
           <div key={e.type} className="blur-bg px-4 p-2">
             <span className="font-bold">{e.type}</span>
